@@ -27,12 +27,12 @@ Add new movie
         <Modal.Header closeButton>
           <Modal.Title>Add film</Modal.Title>
         </Modal.Header>
-        <input  value={newMovie.image} name="image" onChange ={handelNewMovie}/>
-        <input value={newMovie.rating} name="rating"  onChange  ={handelNewMovie}/>
-        <input value={newMovie.name} name="name" onChange = {handelNewMovie} />
-        <input value={newMovie.date} name="date" onChange ={handelNewMovie}/>
-        <input value={newMovie.type} name="type" onChange ={handelNewMovie}/>
-        <input value={newMovie.description} name="description" onChange={handelNewMovie}/>
+        <input placeholder="Image URL"  value={newMovie.image} name="image" onChange ={handelNewMovie}/>
+        <input placeholder="Rating" value={newMovie.rating} name="rating"  onChange  ={handelNewMovie}/>
+        <input placeholder="Name" value={newMovie.name} name="name" onChange = {handelNewMovie} />
+        <input placeholder="Date" value={newMovie.date} name="date" onChange ={handelNewMovie}/>
+        <input placeholder="Type" value={newMovie.type} name="type" onChange ={handelNewMovie}/>
+        <input placeholder="Description" value={newMovie.description} name="description" onChange={handelNewMovie}/>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Close
