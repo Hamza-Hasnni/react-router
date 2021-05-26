@@ -10,7 +10,7 @@ const MovieFilter = ({handelSearch}) => {
         }}
             placeholder="Search" 
             onChange={
-                e=>handelSearch(e.target.value)
+                e=>handelSearch(e.target.value.trim())
                 } />
         </div>
     )

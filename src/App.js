@@ -27,7 +27,7 @@ function App() {
       id: Math.random(),
       image:
         "https://static.cinemagia.ro/img/db/movie/00/69/88/once-upon-a-time-in-the-west-549264l.jpg",
-      rating: 5,
+      rating: 2,
       name: "Once Upon A Time In The west",
       date: "1968",
       type: "Western",

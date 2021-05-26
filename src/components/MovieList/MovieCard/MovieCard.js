@@ -8,26 +8,26 @@ const MovieCard = ({item}) => {
     
     return (
       <div>
-          <div class="wrapper">
-	<div class="main_card">
-		<div class="card_left">
-			<div class="card_datails">
+          <div className="wrapper">
+	<div className="main_card">
+		<div className="card_left">
+			<div className="card_datails">
 				<h1>{item.name}</h1>
-				<div class="card_cat">
-					<p class="year">{item.date}</p>
-					<p class="genre"> {item.type} </p>
+				<div className="card_cat">
+					<p className="year">{item.date}</p>
+					<p className="genre"> {item.type} </p>
 					
 				</div>
-				<p class="disc">{item.description}</p>
+				<p className="disc">{item.description}</p>
 				
-			<div class="social-btn">
+			<div className="social-btn">
        
 			
 			
 				
 				
 				<button>
-					<i class="fas fa-thumbs-up"></i>  
+					<i className="fas fa-thumbs-up"></i>  
 		<ReactStars
             count={5}
             name="rating"  
@@ -41,13 +41,13 @@ const MovieCard = ({item}) => {
 			</div>	
 			</div>
 		</div>
-		<div class="card_right">
-			<div class="img_container">
+		<div className="card_right">
+			<div className="img_container">
 				<img src={item.image} alt=""/>
 				</div>
-				<div class="play_btn">
+				<div className="play_btn">
 					<a href="https://www.imdb.com/title/tt4912910/" >
-						<i class="fas fa-play-circle"></i>
+						<i className="fas fa-play-circle"></i>
 					</a>
 				</div>
 			</div>
