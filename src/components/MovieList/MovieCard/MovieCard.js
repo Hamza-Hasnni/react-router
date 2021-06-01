@@ -1,14 +1,16 @@
 import React from 'react';
 import './MovieCard.css';
 import ReactStars from "react-rating-stars-component";
+import {Link} from "react-router-dom"
 
 
 const MovieCard = ({item}) => {
-
-    
+	
+	
     return (
-      <div>
-          <div className="wrapper">
+		
+      <div >
+          <div className="wrapper" >
 	<div className="main_card">
 		<div className="card_left">
 			<div className="card_datails">

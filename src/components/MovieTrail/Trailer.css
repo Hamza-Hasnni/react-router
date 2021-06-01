@@ -1,0 +1,23 @@
+.MBtn{
+    border-radius: 50% !important ;
+    background-color: rgb(240, 65, 34) !important;
+}
+
+.bg{
+    background: url("./trailer.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.trailer{
+    box-shadow: 4px 4px 5px black;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 3%;
+    border-radius: 6%;
+    background-color: white;
+    padding: 5px;
+}
